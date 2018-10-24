@@ -5,7 +5,7 @@ private int a ;private String title;private float rating;//encapsulation of vari
  void accept()throws IOException
  {
      BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
-     System.out.println("enter a,title,rating");
+     System.out.println("enter year,title,rating out of 5");
      a=Integer.parseInt(br.readLine());
      String title=br.readLine();
      rating=Float.parseFloat(br.readLine());
